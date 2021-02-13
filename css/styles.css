@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*****************Default*****************/
+/* Color Theme Swatches in Hex */
+/*.Vintage-Pizza-1-hex pink/ren{ color: #DA232F; }
+.Vintage-Pizza-2-hex green { color: #79A938; }
+.Vintage-Pizza-3-hex orange { color: #F5A03C; }
+.Vintage-Pizza-4-hex beige { color: #F3DFC6; }
+.Vintage-Pizza-5-hex red { color: #BE2526; }
+*/
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-size: 100%;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    line-height: 1.5;
+    background-image: url("../images/pizza.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 1260px; /*have to stop at a certain pixel value so px is good to use*/
+    background-color: #fff;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,dl,ol,ul{
+    margin-bottom: .75em;
+}
+h1, h2, h4{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Architects Daughter', "Helvetica Neue", Helvetica, Roboto, Arial, cursive;
+}
+h4{
+    size: 1em;
+}
+h2{
+    color: #be2526;
+}
+ul,ol{
+    margin-left: 8%;
+    list-style: circle;
+}
+header{
+    padding-top: 1.5em;
+    color: #79a938;
+    background-color: #262524;
+}
+.nav{
+    margin: 1.5em 5%;
+}
+.nav-tabs{
+    margin-right: 1%;
+}
+a{
+    color: #f2e3d5;
+    text-decoration: none;
+}
+a:hover{
+    color: #f5a03C;
+    text-decoration: none;
+}
+.nav-tabs .nav-link.active{
+    color: #f5a03C;
+}
+.button{
+    display: block;
+    padding: .5em 0;
+    margin: 0 auto;
+    width: 25%;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #f2e3d5;
+    text-align: center;
+    background-color: #262524;
+    border: none;
+    border-radius: 25px;
+}
+.tab-content{
+    padding: .75em 5% 0 5%;
+}
+#panel1{
+    height: 43.25em;
+}
+#panel3{
+    height: 28em;
+    padding: 0 1%;
+}
+fieldset{
+    width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 1em 5%;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+legend{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 0 1.75%;
+    margin: 0;
+    width: fit-content;
+}
+.float-right{
+    float: right;
+}
+.info{
+    width: 100%;
+}
+#information p{
+    margin-bottom: 2em;
+}
+input, select{
+    border: 1px solid #ccc;
+    padding: 1%;
+    border-radius: 8px;
+}
+input[type=text], input[type=email], input[type=tel], input[type=number]{
+    width: 60%;
+}
+#state, #zipcode{
+    width: 30%;
+}
+.red{
+    color: #be2526;
+}
+table{
+    margin-bottom: 1.25em;
+    width: 50%;
+    border-collapse: collapse;
+}
+td{
+    width: 30%;
+    text-align: left;
+}
+.last{
+    padding-bottom: 1em;
+}
+.delivery-output{
+    width: 50%;
+    height: 25.75em;
+}
+.delivery-output p{
+    padding: 0;
+    margin: 0;
+}
+footer {
+    clear: both;
+    color: #f2e3d5;
+    background-color: #262524;
+    margin-top: 5em;
+    text-align: center;
+    padding: 2% 0;
+}
+/*****************Mobile******************/
+
+/*****************Tablet******************/
+/*@media screen and (min-width:401px)*/
+
+/*****************Desktop*****************/
+/*@media screen and (min-width:769px)*/
